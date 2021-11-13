@@ -37,7 +37,7 @@
 
                     <div class="card-body">
                         <div class="box-body table-responsive">
-                            <table class="table table-bordered table-striped" id="dataTable" width="100%">
+                            <table class="table table-bordered table-striped" id="dataTable2" width="100%">
                                 <thead>
                                     <tr>
                                         <th>#</th>
@@ -97,7 +97,7 @@
     <script src="https://cdn.datatables.net/buttons/1.6.3/js/buttons.html5.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/1.6.3/js/buttons.print.min.js"></script>
     <script>
-        $('#dataTable').dataTable({
+        $('#dataTable2').dataTable({
             "ordering": false,
             "dom": 'Bfrtip',
             "buttons": [
